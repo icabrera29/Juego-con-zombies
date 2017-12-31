@@ -1,5 +1,3 @@
-/* El objeto jugador es un objeto literal que se encuentra incompleto.
- Solo tiene asignadas algunas de sus propiedades y ningun metodo */
 var Jugador = {
   /* el sprite contiene la ruta de la imagen
   */
@@ -11,11 +9,6 @@ var Jugador = {
   velocidad: 10,
   vidas: 5,
   moverse: function(nuevoX, nuevoY){
-    //Jugador.x = nuevoX;
-    //Jugador.y = nuevoY;
-
-    /*Uso del this: En tu código del Jugador hacés referencia todo el tiempo el objeto mismo. Esto podrías cambiarlo y usar this. Por qué conviene hacer esto? Porque si en el futuro creamos nuevas instancias a partir del objeto Jugador este this hará referencia a esta nueva instancia. En cambio, si queda como está siempre haríamos referencia al mismo Jugador. Ejemplo:*/
-
     this.x = nuevoX;
     this.y = nuevoY;
   },

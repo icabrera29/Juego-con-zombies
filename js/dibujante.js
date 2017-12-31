@@ -1,8 +1,3 @@
-/* El objeto dibujante se encarga de manipular el canvas y hacer todo lo necesario
-para poder pintar en la pantalla. Es un objeto que abstrae las complejidades del
-canvas, brindandonos una interfaz para controlarlo facilmente en el juego.
-No tenes que preocuparte por este archivo, solo saber como usar sus funciones. */
-
 var Dibujante = {
   canvas: document.createElement('canvas'),
 
